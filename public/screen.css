@@ -43,11 +43,21 @@ nav {
   color: white;
 }
 
+.header:hover {
+  color: darkorange;
+}
+
+p a:hover {
+  color: darkorange;
+}
+
 .active-page {
   border: solid white 2px;
   border-radius: 5px;
-  
+
 }
+
+
 
 
 
