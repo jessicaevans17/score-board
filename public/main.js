@@ -12,6 +12,7 @@ const updateTeamOneName = () => {
   // get the value of the text box
   const newTeamOneName = document.querySelector(".team-1-input").value
   document.querySelector(".team-1-name").textContent = newTeamOneName
+  document.querySelector(".team-1-input").value = ""
 }
 const addOneToTeamOneCount = () => {
   console.log ("add 1 to a counter")
@@ -33,6 +34,7 @@ const subtractOneFromTeamOneCount = () => {
 const updateTeamTwoName = () => {
   const newTeamTwoName = document.querySelector(".team-2-input").value
   document.querySelector(".team-2-name").textContent = newTeamTwoName
+  document.querySelector(".team-2-input").value = ""
 }
 const addOneToTeamTwoCount = () => {
   console.log ("add 1 to a counter")
